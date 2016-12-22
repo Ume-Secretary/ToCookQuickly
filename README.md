@@ -1,4 +1,5 @@
 # ToCookQuickly
+![1](https://pp.vk.me/c637419/v637419272/282ac/PeJz5uazl8w.jpg)
 ***
 ##ENG
 You can cook at high speed by holding food and tapping the specified block.<br>
