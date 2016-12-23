@@ -35,43 +35,43 @@ public function onTap(PlayerInteractEvent $event){
 			case "319":
 				$player->getInventory()->addItem(Item::get(320, 0, 1));
 				$player->getInventory()->removeItem(Item::get(319, 0, 1));
-				$this->lang("did");
+				$player->sendMessage($this->lang("did"));
 				break;
 
 			case "363":
 				$player->getInventory()->addItem(Item::get(364, 0, 1));
 				$player->getInventory()->removeItem(Item::get(363, 0, 1));
-				$this->lang("did");
+				$player->sendMessage($this->lang("did"));
 				break;
 
 			case "365":
 				$player->getInventory()->addItem(Item::get(366, 0, 1));
 				$player->getInventory()->removeItem(Item::get(365, 0, 1));
-				$this->lang("did");
+				$player->sendMessage($this->lang("did"));
 				break;
 
 			case "392":
 				$player->getInventory()->addItem(Item::get(393, 0, 1));
 				$player->getInventory()->removeItem(Item::get(392, 0, 1));
-				$this->lang("did");
+				$player->sendMessage($this->lang("did"));
 				break;
 
 			case "411":
 				$player->getInventory()->addItem(Item::get(412, 0, 1));
 				$player->getInventory()->removeItem(Item::get(411, 0, 1));
-				$this->lang("did");
+				$player->sendMessage($this->lang("did"));
 				break;
 
 			case "423":
 				$player->getInventory()->addItem(Item::get(424, 0, 1));
 				$player->getInventory()->removeItem(Item::get(423, 0, 1));
-				$this->lang("did");
+				$player->sendMessage($this->lang("did"));
 				break;
 
 			case "349":
 				$player->getInventory()->addItem(Item::get(350, 0, 1));
 				$player->getInventory()->removeItem(Item::get(349, 0, 1));
-				$this->lang("did");
+				$player->sendMessage($this->lang("did"));
 				break;
 			}
 		}
